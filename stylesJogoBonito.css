@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 85vh;
+  background-color: #191c32;  
+}
+
+ /*navbar*/
+
+.brand {
+margin-top: -8px  ;
+}
+
+.brand span {
+color: crimson;
+}
+
+.brand h2, .portfolio h2, .brand a {
+color: #fff;
+text-decoration: none;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    padding: 1.4em;
+    background: #191c32;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    font-size: 18px;
+}
+
+.menu li {
+    list-style: none;
+    display:inline-block;  
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    font-weight:bolder;
+}
+
+.menu a:hover {
+    color: crimson;
+    transition: ease-in 0.2s;
+}
+
+/*main*/
+
+.main {
+    height: 150vh;
+    background-color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    /*column-gap: 5px;*/
+    
+}
+
+.headings h1 {
+    margin-top: 90px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 2em;
+    color:#191c32;
+}
+
+.main img {
+    width: 100%;
+}
+
+.about1 {
+    margin-left: 10px;
+}
+
+.about2 p {
+    margin-top: 200px;
+    padding: 25px;
+}
+
+.about2 h1 {
+    font-style: italic;
+}
+
+.about3 {
+    grid-column-start: span 2;
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 120px;
+    background-color: #191c32;
+  }
+  
+  .footer h2, h5 {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .footer-content h2{
+    font-size: 30px;
+  }
+  
+  .footer-content h5{
+    font-size: 20px;
+  }
+  
+  .sotial-network {
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    padding: 5px;
+  }
+  
+  .sotial-network i {
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    width: 10px;
+    font-size: 25px;
+  }
+
+

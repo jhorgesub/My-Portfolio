@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 536px;
+  background-color: #191c32;  
+}
+
+.brand {
+  margin-top: -8px  ;
+}
+
+.brand span {
+  color: crimson;
+}
+
+.brand h2, .portfolio h2, .brand a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  padding: 1.4em;
+  background: #191c32;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  font-size: 18px;
+}
+
+.menu li {
+  list-style: none;
+  display:inline-block;  
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  font-weight:bolder;
+}
+
+.menu a:hover {
+  color: crimson;
+  transition: ease-in 0.2s;
+}
+
+
+.main {
+  margin: 0 auto;
+  width: 80vw;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  align-items: center;
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.main .info-content .text-1 {
+  margin-left: -50px;
+  font-size: 27px; 
+}
+
+.main .info-content .text-2 {
+  font-size: 70px;
+  font-weight: 600;
+  margin-left: -50px;
+}
+
+.main .info-content .text-3 {
+  font-size: 40px;
+  margin-left: -50px;
+  font-weight: 600;
+}
+
+.main .info-content .text-3 span {
+  color: crimson;
+  font-style:italic;
+}
+
+.main img {
+  width: 420px;
+  height: 530px;
+}
+
+h2 {
+  color: #191c32;
+  font-size: 30px;
+}
+
+
+.about {
+  display: grid;
+  grid-template-columns: repeat(10,1fr);
+  width: 100vw;
+  height: 516px;
+  align-items: center;
+}
+
+.about img {
+  width: 90%;
+  grid-column: 1/5;
+  font-size: 50px;
+}
+
+.about-info {
+  grid-column: 5/10;
+  padding: 2em;
+}
+
+.about-info h2 {
+  font-size: 2em;  
+}
+
+.about p {
+  margin-bottom: 1em;
+}
+
+.download-cv {
+  padding: 10px 20px;
+  background-color: crimson;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Ubuntu', sans-serif;
+  box-shadow: 1px 3px 11px -5px grey;
+}
+
+.download-cv:hover {
+  background-color:#191c32;
+}
+
+.portfolio {
+  width: 100vw;
+  height: 475px;
+  background-color: #191c32;
+}
+
+.portfolio-headings {
+  width: 80vw;
+  padding: 15px;
+}
+
+.portfolio-headings h2 {
+  font-size: 2em;
+}
+
+.portfolio .container {
+  width: 80vw;
+  height: 60vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+.card {
+  width: 320px;
+  height: 400px;
+  color: #fff;
+  background-color:#101e4b;
+}
+
+.card-img {
+  width: 100%;
+  height: 150px;
+  background-image: url(./img/Jogo\ Bonito.PNG);
+  background-size: cover;
+}
+
+.card-title  {
+  padding: 15px;
+}
+
+.card-title h2 {
+  font-size: 25px;
+  text-align: center;
+}
+
+.card-title p {
+  margin-top: 10px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.card-projects-link {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card-projects-link a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.card-projects-link i {
+  font-size: 30px;
+}
+
+.card .project-details {
+  margin: 0 auto;
+  margin: 1em;
+  width: 70%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 15px;
+  margin-top: 65px;
+  cursor: pointer;
+  background-color: crimson;
+  box-shadow: 1px 3px 11px -5px grey;
+}
+
+.card .project-details a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+}
+
+.card .project-details:hover {
+  background-color: #191c32;
+}
+
+.project-details-content {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 1px;
+}
+
+.contact-section {
+  width: 500px;
+  height: 430px;
+}
+
+.contact-section img {
+  width: 500px;
+  height: 400px;
+}
+
+.container-contact {
+  padding-left: 50px;
+  margin: 0 auto;
+}
+
+.contact-headings h2 {
+  font-size: 2em;
+  padding: 0.5em;
+}
+
+.contact-form .form {
+  display: flex;
+  flex-direction:column;
+  width: 30vw;
+  margin-top: 1em;
+}
+
+
+
+.form input {
+  padding: 10px 20px;
+  margin-top: 1em;
+  background: none;
+  border:none;
+  border-bottom: 1px solid #191c32;
+}
+
+.form textarea {
+  padding: 1em;
+  height: 150px;
+  background: none;
+}
+.form .btn-submit {
+  padding: 10px 20px;
+  margin: 1em;
+  background-color: crimson;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Ubuntu', sans-serif;
+  box-shadow: 1px 3px 11px -5px grey;
+  margin-top: 1em;
+
+}
+.btn-submit:hover {
+  background-color: #191c32;
+  box-shadow: none;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100px;
+  background-color: #191c32;
+}
+
+.footer h2, h5 {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.footer-content h2{
+  font-size: 30px;
+}
+
+.footer-content h5{
+  font-size: 20px;
+}
+
+.sotial-network {
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  width: 300px;
+  padding: 5px;
+}
+
+.sotial-network i {
+  color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  width: 10px;
+  font-size: 25px;
+}
+
+
+
