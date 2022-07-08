@@ -62,7 +62,6 @@ body {
   transition: ease-in 0.2s;
 }
 
-
 .main {
   margin: 0 auto;
   width: 80vw;
@@ -205,7 +204,9 @@ h2 {
 
 .card-projects-link {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  align-items: end;
+  height: 50px;
 }
 
 .card-projects-link a {
@@ -218,16 +219,14 @@ h2 {
 }
 
 .card .project-details {
-  margin: 0 auto;
-  margin: 1em;
-  width: 70%;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 15px;
-  margin-top: 65px;
-  cursor: pointer;
-  background-color: crimson;
-  box-shadow: 1px 3px 11px -5px grey;
+    width: 70%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 50px;
+    cursor: pointer;
+    background-color: crimson;
+    box-shadow: 1px 3px 11px -5px grey;
 }
 
 .card .project-details a {
@@ -242,9 +241,8 @@ h2 {
 
 .project-details-content {
   display: flex;
-  width: 100%;
-  justify-content: center;
-  margin-top: 1px;
+    width: 100%;
+    justify-content: center;
 }
 
 .contact-section {
@@ -273,8 +271,6 @@ h2 {
   width: 30vw;
   margin-top: 1em;
 }
-
-
 
 .form input {
   padding: 10px 20px;
@@ -323,7 +319,6 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 .footer-content h2{
@@ -349,6 +344,3 @@ h2 {
   width: 10px;
   font-size: 25px;
 }
-
-
-
